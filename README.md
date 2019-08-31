@@ -1,4 +1,4 @@
-# Small Example Flask VRFs API
+# Small Example Flask API with VRFs
 
 This is a small example API that allows you to GET, POST, and DELETE [VRFs](https://www.kernel.org/doc/Documentation/networking/vrf.txt) on a linux host.  This is meant to be an example of how I like to develop python api's using [flask](https://flask.palletsprojects.com/en/1.1.x/) in conjunction with the [flask-apispec](https://github.com/jmcarp/flask-apispec) library.
 
