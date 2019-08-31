@@ -1,0 +1,2 @@
+# just install production requirements
+-r requirements/production.txt

@@ -1,0 +1,8 @@
+# everything developer needs in addition to production requirements
+-r production.txt
+
+autopep8
+black
+pytest
+pytest-cov
+wily

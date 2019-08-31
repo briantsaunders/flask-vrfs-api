@@ -1,0 +1,27 @@
+---
+- name: install app requirements
+  hosts: all
+  connection: local
+  gather_facts: no
+  tasks:
+
+    - name: install build-essential
+      apt:
+        name: build-essential
+      become: yes
+
+    - name: install pip3
+      apt:
+        name: python3-pip
+      become: yes
+
+    - name: install net-tools
+      apt:
+        name: net-tools
+      become: yes
+
+    - name: pip install development requirements
+      pip:
+        requirements: /vagrant/requirements/development.txt
+        executable: pip3
+      become: yes

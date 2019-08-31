@@ -1,0 +1,10 @@
+# default packages
+flask
+flask-apispec
+flask-cors
+gunicorn
+python-dotenv
+
+# app packages
+pyroute2
+PyYAML
